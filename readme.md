@@ -1,6 +1,6 @@
 # Jason
 
-This python module is inspired by a satirical discord message by Ray T. (The GOAT)
+This python module is inspired by a satirical discord message from Ray T. (The GOAT)
 
 # Installation
 
@@ -20,13 +20,12 @@ maturin build
 ```py
 from jason import Jason
 jason = Jason(<annoying_value>)
+print(str(jason.annoying_value)) # This will print jason's annoying value (duh)
 ```
-
-You can then call `jason.annoying_value` to get jason's annoying value (duh)
 
 There is also speak:
 
 ```py
 from jason import speak
-speak(<Any string you want>) # This may or may not just call println!
+speak("mmmmm") # This may or may not just call println!
 ```
